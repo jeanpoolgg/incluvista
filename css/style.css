@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 
+:focus {
+    outline: 2px solid #007bff; /* Color azul, puedes ajustar según tus preferencias */
+    outline-offset: 2px; /* Espacio entre el contorno y el elemento */
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
