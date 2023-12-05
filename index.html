@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Jean Pool Gutierrez Gutierrez">
+    <meta name="description" content="IncluVista es sitio web que aborda la problema de la falta de accesibilidad en la web para las personas con discapacidad visual">
     <title>IncluVista</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
@@ -12,17 +14,17 @@
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <button onclick="cambiarTema()" class="btn rounded-fill"  ><i  id="dl-icon" class="bi bi-moon-fill"></i></button>
-        <a class="navbar-brand" href="index.html">IncluVista</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button tabindex="1" onclick="cambiarTema()" class="btn rounded-fill"  ><i  id="dl-icon" class="bi bi-moon-fill"></i></button>
+        <a tabindex="2" class="navbar-brand" href="index.html">IncluVista</a>
+        <button tabindex="3" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#discapacidadVisual">Discapacidad visual</a></li>
-            <li class="nav-item"><a class="nav-link" href="#accesibilidadWeb">Accesibilidad web</a></li>
-            <li class="nav-item"><a class="nav-link" href="#ejemplos">Ejemplos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#problemas">Problemas</a></li>
+            <li tabindex="4" class="nav-item"><a class="nav-link" href="#discapacidadVisual">Discapacidad visual</a></li>
+            <li tabindex="5" class="nav-item"><a class="nav-link" href="#accesibilidadWeb">Accesibilidad web</a></li>
+            <li tabindex="6" class="nav-item"><a class="nav-link" href="#ejemplos">Ejemplos</a></li>
+            <li tabindex="7" class="nav-item"><a class="nav-link" href="#problemas">Problemas</a></li>
           </ul>
         </div>
       </div>
@@ -32,41 +34,40 @@
       <section class="container hero ">
           <div class="row hero_container center">
               <picture class="hero_image col-md-6 center">
-                <img src="img/accesibilidad-web.png" alt="Persona con discpacidad ingresando a una página web"class="hero_img" >
+                <img tabindex="8" src="img/accesibilidad-web.png" alt="Persona con discpacidad ingresando a una página web"class="hero_img" >
               </picture>
               <div class="hero_text col-md-6 center">
-                  <h1 class="hero_title">Visión más allá de la vista</h1>
-                  <span class="hero_content">Explorar la discapacidad visual es adentrarse en un mundo de percepciones únicas, donde la empatía y la accesibilidad construyen puentes hacia una sociedad más inclusiva.
+                  <h1 tabindex="9" class="hero_title">Visión más allá de la vista</h1>
+                  <span tabindex="10" class="hero_content">Explorar la discapacidad visual es adentrarse en un mundo de percepciones únicas, donde la empatía y la accesibilidad construyen puentes hacia una sociedad más inclusiva.
                   </span>
               </div>
           </div>
       </section>
-      <section class="">
-      
+      <section>
         <article class="information" id="discapacidadVisual">
           <div class="information_title text-primary">
-            <h2>Discapacidad visual</h2>
+            <h2 tabindex="11">Discapacidad visual</h2>
           </div>
           <div class="container">
             <article class="container-content">
-              <h3 class="information_title-primary">¿Qué es la Discapacidad Visual?</h3>
-              <p>La discapacidad visual se refiere a cualquier alteración en la función visual, ya sea total o parcial. Esta condición puede ser causada por diversas afecciones oculares que afectan la agudeza y el campo visual.  Puede limitar significativamente la capacidad de una persona para ver y participar plenamente en actividades cotidianas.</p>
+              <h3 tabindex="12" class="information_title-primary">¿Qué es la Discapacidad Visual?</h3>
+              <p tabindex="13">La discapacidad visual se refiere a cualquier alteración en la función visual, ya sea total o parcial. Esta condición puede ser causada por diversas afecciones oculares que afectan la agudeza y el campo visual.  Puede limitar significativamente la capacidad de una persona para ver y participar plenamente en actividades cotidianas.</p>
             </article>
             <article class="container-content">
               <div class="row">
                 <section class="col-md-6 data" >
-                  <h4 class="information_title-secondary">Cifras a nivel global</h4>
+                  <h4 tabindex="14" class="information_title-secondary">Cifras a nivel global</h4>
                   <picture>
-                    <img src="img/mundo.png" alt="Dos manos sujetando el planeta tierra" width="200" class="m-5">
+                    <img tabindex="15" src="img/mundo.png" alt="Dos manos sujetando el planeta tierra" width="200" class="m-5">
                   </picture>
-                  <p>Según la Organización Mundial de la Salud (OMS), a nivel mundial hay al menos 2200 millones de personas con deterioro de la visión cercana o lejana, y en al menos 1000 millones de casos, esta afectación podría prevenirse o tratarse.</p>
+                  <p tabindex="16">Según la Organización Mundial de la Salud (OMS), a nivel mundial hay al menos 2200 millones de personas con deterioro de la visión cercana o lejana, y en al menos 1000 millones de casos, esta afectación podría prevenirse o tratarse.</p>
                 </section>
                 <section class="col-md-6 data">
-                  <h4 class="information_title-secondary">Cifras en el Perú</h4>
+                  <h4 tabindex="17" class="information_title-secondary">Cifras en el Perú</h4>
                   <picture>
-                    <img src="img/peru.png" alt="mapa del perú de rojo y blanco" width="200" class="m-5">
+                    <img tabindex="18" src="img/peru.png" alt="mapa del perú de rojo y blanco" width="200" class="m-5">
                   </picture>
-                  <p> En el Perú, según datos del Censo Nacional 2017, cerca de 160,000 personas son invidentes, y aproximadamente 600,000 sufren de alguna discapacidad visual.</p>
+                  <p tabindex="19">En el Perú, según datos del Censo Nacional 2017, cerca de 160,000 personas son invidentes, y aproximadamente 600,000 sufren de alguna discapacidad visual.</p>
                 </section>
               </div>
             </article>
@@ -75,23 +76,23 @@
 
         <article class="information" id="accesibilidadWeb">
           <section class="information_title text-primary">
-            <h2>Accesibilidad web</h2>
+            <h2 tabindex="20">Accesibilidad web</h2>
           </section>
           <section class="container">
             <section class="container-content">
-              <h3 class="information_title-primary">¿Qué es la Accesibilidad Web?</h3>
-              <p>La Accesibilidad Web, según la World Wide Web Consortium (W3C), se refiere a la práctica de diseñar y desarrollar sitios web, herramientas y tecnologías de manera que sean accesibles y utilizables para todas las personas, independientemente de sus habilidades o discapacidades. Implica garantizar que la información y funcionalidades sean comprensibles, navegables y operables para usuarios con diversas capacidades.
+              <h3 tabindex="21" class="information_title-primary">¿Qué es la Accesibilidad Web?</h3>
+              <p tabindex="22">La Accesibilidad Web, según la World Wide Web Consortium (W3C), se refiere a la práctica de diseñar y desarrollar sitios web, herramientas y tecnologías de manera que sean accesibles y utilizables para todas las personas, independientemente de sus habilidades o discapacidades. Implica garantizar que la información y funcionalidades sean comprensibles, navegables y operables para usuarios con diversas capacidades.
               </p>
             </section>
             <section class="container-content">
               <div class="row">
                 <div class="col-md-6 center information-right_text">
-                  <h3>Normativas y Estándares</h3>
-                  <p>Las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 son un estándar internacional del W3C, diseñado para mejorar la accesibilidad de los contenidos web. Estas pautas se basan en cuatro principios fundamentales, cada uno de los cuales tiene pilares específicos:</p>
+                  <h3 tabindex="23">Normativas y Estándares</h3>
+                  <p tabindex="24">Las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 son un estándar internacional del W3C, diseñado para mejorar la accesibilidad de los contenidos web. Estas pautas se basan en cuatro principios fundamentales, cada uno de los cuales tiene pilares específicos:</p>
                 </div>
                 <div class="col-md-6 p-0">
                   <picture class="center">
-                    <img src="img/logo-wcag-2.2.png" alt="" class="information-right_img">
+                    <img tabindex="25" src="img/logo-wcag-2.2.png" alt="" class="information-right_img">
                   </picture>
                 </div>
               </div>
@@ -102,44 +103,44 @@
 
         <article class="information" id="ejemplos">
           <section class="information_title text-primary">
-            <h2>Ejemplos de Accesibilidad web</h2>
+            <h2 tabindex="26">Ejemplos de Accesibilidad web</h2>
           </section>
           <section class="container ">
             <div class="container-content">
               <div class="row information-cards">
                 <div class="card" style="width: 22rem;">
-                  <img src="img/scope.png" class="card-img-top" alt="Imagen de la página Scope">
+                  <img tabindex="28" src="img/scope.png" class="card-img-top" alt="Imagen de la página Scope">
                   <div class="card-body">
                     <div>
-                      <h5 class="card-title">Scope</h5>
-                      <p class="card-text">Scope es una organización benéfica de igualdad y discapacidad ubicada en Wales, Inglaterra dedicada a crear una sociedad más justa e igualitaria. </p>
+                      <h5 tabindex="27" class="card-title">Scope</h5>
+                      <p tabindex="29" class="card-text">Scope es una organización benéfica de igualdad y discapacidad ubicada en Wales, Inglaterra dedicada a crear una sociedad más justa e igualitaria. </p>
                     </div>
                     <div>
-                      <a href="https://www.scope.org.uk/" class="btn btn-primary" target="_blank">Conocer esta página</a>
+                      <a  tabindex="30" href="https://www.scope.org.uk/" class="btn btn-primary" target="_blank">Conocer esta página</a>
                     </div>
                   </div>
                 </div>
                 <div class="card" style="width: 22rem;">
-                  <img src="img/ipc.png" class="card-img-top" alt="Imagen de la página Paralympic.org">
+                  <img tabindex="32" src="img/ipc.png" class="card-img-top" alt="Imagen de la página Paralympic.org">
                   <div class="card-body">
                     <div>
-                      <h5 class="card-title">Paralympic.org</h5>
-                      <p class="card-text">Paralympic.org es el sitio oficial del Comité Internacional de Paralímpicos (IPC). El IPC es un poderoso defensor de la inclusión social y su sitio web es el testamento de eso. </p>
+                      <h5 tabindex="31" class="card-title">Paralympic.org</h5>
+                      <p tabindex="33" class="card-text">Paralympic.org es el sitio oficial del Comité Internacional de Paralímpicos (IPC). El IPC es un poderoso defensor de la inclusión social y su sitio web es el testamento de eso. </p>
                     </div>
                     <div>
-                      <a href="https://www.paralympic.org/es" class="btn btn-primary" target="_blank">Conocer esta página</a>
+                      <a tabindex="34" href="https://www.paralympic.org/es" class="btn btn-primary" target="_blank">Conocer esta página</a>
                     </div>
                   </div>
                 </div>
                 <div class="card" style="width: 22rem;">
-                  <img src="img/bbc.png" class="card-img-top" alt="Imagen de la página BBC iPlayer" > 
+                  <img  tabindex="36" src="img/bbc.png" class="card-img-top" alt="Imagen de la página BBC iPlayer" > 
                   <div class="card-body">
                     <div>
-                      <h5 class="card-title">BBC iPlayer</h5>
-                      <p class="card-text">BBC iPlayer es el servicio de streaming en línea de la BBC. Su sitio web es donde los usuarios van a ver los programas en línea. También es otro fantástico ejemplo de accesibilidad web del que podemos aprender.</p>
+                      <h5 tabindex="35" class="card-title">BBC iPlayer</h5>
+                      <p tabindex="37" class="card-text">BBC iPlayer es el servicio de streaming en línea de la BBC. Su sitio web es donde los usuarios van a ver los programas en línea. También es otro fantástico ejemplo de accesibilidad web del que podemos aprender.</p>
                     </div>
                     <div>
-                      <a href="https://www.bbc.co.uk/iplayer" class="btn btn-primary" target="_blank">Conocer esta página</a>
+                      <a tabindex="38" href="https://www.bbc.co.uk/iplayer" class="btn btn-primary" target="_blank">Conocer esta página</a>
                     </div>
                   </div>
                 </div>
@@ -150,31 +151,31 @@
 
         <article>
           <section class="information_title text-primary" id="problemas">
-            <h2>Desafíos de las personas con discapacidad visual</h2>
+            <h2 tabindex="39">Desafíos de las personas con discapacidad visual</h2>
           </section>
           <section class="container">
             <section class="container-content">
-              <h3 class="information_title-primary">Problemas comunes</h3>
-              <p>Las personas con discapacidad visual enfrentan varios desafíos al navegar por la web. Algunos de estos desafíos incluyen:
+              <h3 tabindex="40" class="information_title-primary">Problemas comunes</h3>
+              <p tabindex="41">Las personas con discapacidad visual enfrentan varios desafíos al navegar por la web. Algunos de estos desafíos incluyen:
               </p>
             </section>
             <section class="container">
               <div class="row cards_problem  center ">
                 <div class="col-md-6 card_problem rounded center border border-secondary">
-                  <h4 class="card_problem_title">Accesibilidad mediante el uso del teclado</h4>
-                  <p>La navegación mediante el uso del ratón puede ser difícil o imposible para personas con discapacidad visual. La accesibilidad del teclado es crucial para facilitar la navegación.</p>
+                  <h4 tabindex="42" class="card_problem_title">Accesibilidad mediante el uso del teclado</h4>
+                  <p tabindex="43" >La navegación mediante el uso del ratón puede ser difícil o imposible para personas con discapacidad visual. La accesibilidad del teclado es crucial para facilitar la navegación.</p>
                 </div>
                 <div class="col-md-6 card_problem rounded center border border-secondary">
-                  <h4 class="card_problem_title">Adaptabilidad a dispositivos móviles</h4>
-                  <p>Una organización clara y un lenguaje simple ayudan a personas con desafíos cognitivos o dificultades neurotípicas a navegar efectivamente.</p>
+                  <h4 tabindex="44" class="card_problem_title">Adaptabilidad a dispositivos móviles</h4>
+                  <p tabindex="45">Una organización clara y un lenguaje simple ayudan a personas con desafíos cognitivos o dificultades neurotípicas a navegar efectivamente.</p>
                 </div>
                 <div class="col-md-6 card_problem rounded center border border-secondary">
-                  <h4 class="card_problem_title">Organización del sitio y lenguaje simple</h4>
-                  <p>Una organización clara y un lenguaje simple ayudan a personas con desafíos cognitivos o dificultades neurotípicas a navegar efectivamente.</p>
+                  <h4 tabindex="46" class="card_problem_title">Organización del sitio y lenguaje simple</h4>
+                  <p tabindex="47" >Una organización clara y un lenguaje simple ayudan a personas con desafíos cognitivos o dificultades neurotípicas a navegar efectivamente.</p>
                 </div>
                 <div class="col-md-6 card_problem rounded center border border-secondary">
-                  <h4 class="card_problem_title">Problemas visuales en la navegación en internet</h4>
-                  <p>La pérdida visual puede hacer que navegar por la web sea desafiante, pero existen estrategias para mejorar la accesibilidad para personas con baja visión.</p>
+                  <h4 tabindex="48" class="card_problem_title">Problemas visuales en la navegación en internet</h4>
+                  <p tabindex="49">La pérdida visual puede hacer que navegar por la web sea desafiante, pero existen estrategias para mejorar la accesibilidad para personas con baja visión.</p>
                 </div>
               </div>
             </section>
@@ -184,12 +185,12 @@
   </main>
   <footer class="container ">
     <nav class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top center flex-sm-column ">
-      <p class="col-md-5 mb-0 text-muted text-center mb-3 center px-5">© 2023 Incluvista - Jean Pool Gutierrez Gutierrez</p>
+      <p tabindex="50" class="col-md-5 mb-0 text-muted text-center mb-3 center px-5">© 2023 Incluvista - Jean Pool Gutierrez Gutierrez</p>
       <ul class="nav col-md-5 center">
-        <li class="nav-item"><a href="#discapacidadVisual" class="nav-link px-2 font-weight-bold ">Discapacidad visual</a></li>
-        <li class="nav-item"><a href="#accesibilidadWeb" class="nav-link px-2  font-weight-bold">Accesibilidad web</a></li>
-        <li class="nav-item"><a href="#ejemplos" class="nav-link px-2 font-weight-bold">Ejemplos</a></li>
-        <li class="nav-item"><a href="#problemas" class="nav-link px-2 font-weight-bold">Problemas</a></li>
+        <li class="nav-item"><a tabindex="51" href="#discapacidadVisual" class="nav-link px-2 font-weight-bold ">Discapacidad visual</a></li>
+        <li class="nav-item"><a tabindex="52" href="#accesibilidadWeb" class="nav-link px-2  font-weight-bold">Accesibilidad web</a></li>
+        <li class="nav-item"><a tabindex="53" href="#ejemplos" class="nav-link px-2 font-weight-bold">Ejemplos</a></li>
+        <li class="nav-item"><a tabindex="54" href="#problemas" class="nav-link px-2 font-weight-bold">Problemas</a></li>
       </ul>
     </nav>
   </footer>
